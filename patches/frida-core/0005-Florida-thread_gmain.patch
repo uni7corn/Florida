@@ -1,7 +1,7 @@
-From 93a07e8014d3c4971239ad6831aa5d526042a106 Mon Sep 17 00:00:00 2001
+From 3505dbe62e65bdcbd28058d28390da1ac7c87e86 Mon Sep 17 00:00:00 2001
 From: Ylarod <me@ylarod.cn>
 Date: Tue, 18 Jul 2023 16:04:15 +0800
-Subject: [PATCH 06/10] Florida: thread_gmain
+Subject: [PATCH 5/9] Florida: thread_gmain
 
 ---
  src/anti-anti-frida.py | 7 ++++++-
@@ -25,5 +25,5 @@ index 7a3f6474..b4b8dca6 100644
 +    os.system(f"sed -b -i s/gmain/{random_name}/g {input_file}")
 \ No newline at end of file
 -- 
-2.34.1
+2.42.0
 
